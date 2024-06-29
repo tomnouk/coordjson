@@ -1,44 +1,107 @@
-[
+{
+  "type": "FeatureCollection",
+  "features": [
     {
-      "place_id": 101439910,
-      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-      "osm_type": "relation",
-      "osm_id": 42602,
-      "lat": "43.7697955",
-      "lon": "11.2556404",
-      "class": "boundary",
-      "type": "administrative",
-      "place_rank": 16,
-      "importance": 0.710563302850239,
-      "addresstype": "city",
-      "name": "Firenze",
-      "display_name": "Firenze, Toscana, Italia",
-      "boundingbox": [
-        "43.7258716",
-        "43.8354631",
-        "11.1497598",
-        "11.3389044"
-      ]
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                11.1497598,
+                43.7258716
+              ],
+              [
+                11.3389044,
+                43.7258716
+              ],
+              [
+                11.3389044,
+                43.8354631
+              ],
+              [
+                11.1497598,
+                43.8354631
+              ],
+              [
+                11.1497598,
+                43.7258716
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "place_id": 101439910,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 42602,
+        "class": "boundary",
+        "type": "administrative",
+        "place_rank": 16,
+        "importance": 0.710563302850239,
+        "addresstype": "city",
+        "name": "Firenze",
+        "display_name": "Firenze, Toscana, Italia",
+        "boundingbox": [
+          "43.7258716",
+          "43.8354631",
+          "11.1497598",
+          "11.3389044"
+        ]
+      }
     },
     {
-      "place_id": 101325002,
-      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-      "osm_type": "relation",
-      "osm_id": 42472,
-      "lat": "43.8456527",
-      "lon": "11.374309248149654",
-      "class": "boundary",
-      "type": "administrative",
-      "place_rank": 12,
-      "importance": 0.47143955510971,
-      "addresstype": "county",
-      "name": "Firenze",
-      "display_name": "Firenze, Toscana, Italia",
-      "boundingbox": [
-        "43.4515008",
-        "44.2398101",
-        "10.7111211",
-        "11.7530586"
-      ]
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                10.7111211,
+                43.4515008
+              ],
+              [
+                11.7530586,
+                43.4515008
+              ],
+              [
+                11.7530586,
+                44.2398101
+              ],
+              [
+                10.7111211,
+                44.2398101
+              ],
+              [
+                10.7111211,
+                43.4515008
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "place_id": 101325002,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 42472,
+        "class": "boundary",
+        "type": "administrative",
+        "place_rank": 12,
+        "importance": 0.47143955510971,
+        "addresstype": "county",
+        "name": "Firenze",
+        "display_name": "Firenze, Toscana, Italia",
+        "boundingbox": [
+          "43.4515008",
+          "44.2398101",
+          "10.7111211",
+          "11.7530586"
+        ]
+      }
     }
   ]
+}
