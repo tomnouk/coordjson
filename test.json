@@ -7,7 +7,7 @@
         {"latitude": 43.768529, "longitude": 11.269674},
         {"latitude": 43.765986, "longitude": 11.272984},
         {"latitude": 43.767745, "longitude": 11.248457}
-        // Ajoutez d'autres points de coordonnées pour délimiter la zone
+  
       ]
     },
     {
@@ -17,7 +17,7 @@
         {"latitude": 43.789238, "longitude": 11.254734},
         {"latitude": 43.788620, "longitude": 11.272432},
         {"latitude": 43.780795, "longitude": 11.270605}
-        // Ajoutez d'autres points de coordonnées pour délimiter la zone
+
       ]
     },
     {
@@ -27,9 +27,8 @@
         {"latitude": 43.760384, "longitude": 11.246666},
         {"latitude": 43.755707, "longitude": 11.245307},
         {"latitude": 43.757584, "longitude": 11.228763}
-        // Ajoutez d'autres points de coordonnées pour délimiter la zone
+        
       ]
-    },
-    // Ajoutez d'autres zones avec leurs coordonnées
+    }
   ]
 }
