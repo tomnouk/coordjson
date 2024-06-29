@@ -1,1 +1,24 @@
-{   "statename" : {},   "distance" : "0.002",   "elevation" : "56",   "osmtags" : {      "wikipedia" : "it:Quartiere 1 di Firenze",      "wikidata" : "Q3927157",      "boundary" : "administrative",      "name" : "Quartiere 1",      "type" : "boundary",      "alt_name" : "Centro Storico",      "admin_level" : "10"   },   "state" : "Tuscany",   "latt" : "43.77680",   "city" : "Florence",   "prov" : "IT",   "intersection" : {      "distance" : "0.041",      "xlat" : "43.77645",      "xlon" : "11.25186",      "street2" : "Via Faenza",      "street1" : "Via Giovan Battista Zannoni"   },   "geocode" : "FLORENCE-UIRBT",   "geonumber" : "3064584484721",   "country" : "Italy",   "stnumber" : "76",   "staddress" : "Via Faenza",   "inlatt" : "43.77680",   "alt" : {      "loc" : [         {            "staddress" : "Via Faenza",            "stnumber" : "76",            "postal" : "50123",            "latt" : "43.77680",            "city" : "Florence",            "prov" : "Tuscany",            "longt" : "11.25170",            "class" : {}         },         {            "staddress" : "Via Faenza",            "stnumber" : "78",            "postal" : "50123",            "latt" : "43.77680",            "city" : "Firenze",            "prov" : "Tuscany",            "longt" : "11.25170",            "class" : {}         },         {            "staddress" : "Via Faenza",            "stnumber" : "76",            "postal" : "50123",            "latt" : "43.77680",            "city" : "Province of Florence",            "prov" : "Tuscany",            "longt" : "11.25170",            "class" : {}         }      ]   },   "timezone" : "Europe/Rome",   "region" : "Florence, Tuscany",   "postal" : "50123",   "longt" : "11.25168",   "remaining_credits" : {},   "confidence" : "1",   "inlongt" : "11.25170",   "class" : {},   "adminareas" : {      "admin10" : {         "wikipedia" : "it:Quartiere 1 di Firenze",         "wikidata" : "Q3927157",         "name" : "Quartiere 1",         "admin_level" : "10",         "level" : "10",         "boundary" : "administrative",         "alt_name" : "Centro Storico",         "type" : "boundary"      },      "admin6" : {         "wikipedia" : "it:Città metropolitana di Firenze",         "short_name" : "FI",         "name_ru" : "Флоренция",         "boundary" : "administrative",         "ref_ISTAT" : "048",         "name_en" : "Metropolitan City of Florence",         "wikidata" : "Q18288148",         "ISO3166_2" : "IT-FI",         "name" : "Firenze",         "name_ca" : "Ciutat metropolità de Florència",         "name_es" : "Ciudad Metropolitana de Florencia",         "official_name" : "Città Metropolitana di Firenze",         "admin_level" : "6",         "level" : "6",         "name_it" : "Città metropolitana di Firenze",         "type" : "boundary"      },      "admin8" : {         "wikipedia" : "it:Firenze",         "wikidata" : "Q2044",         "name" : "Firenze",         "name_es" : "Florencia",         "name_ca" : "Florència",         "admin_level" : "8",         "level" : "8",         "ref_catasto" : "D612",         "boundary" : "administrative",         "ref_ISTAT" : "048017",         "name_sv" : "Florens",         "name_ko" : "피렌체",         "type" : "boundary",         "name_en" : "Florence",         "name_fr" : "Florence"      }   },   "altgeocode" : "MACCAMIT-UIRBT"}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [43.774977, 11.236517],
+            [43.783613, 11.261121],
+            [43.782626, 11.262716],
+            [43.773661, 11.270519],
+            [43.766464, 11.267899]
+            [43.775100, 11.236118]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Firenze, Toscana, Italia"
+      }
+    }
+  ]
+}
