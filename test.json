@@ -1,107 +1,35 @@
 {
-  "type": "FeatureCollection",
-  "features": [
+  "zones": [
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                11.1497598,
-                43.7258716
-              ],
-              [
-                11.3389044,
-                43.7258716
-              ],
-              [
-                11.3389044,
-                43.8354631
-              ],
-              [
-                11.1497598,
-                43.8354631
-              ],
-              [
-                11.1497598,
-                43.7258716
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "place_id": 101439910,
-        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-        "osm_type": "relation",
-        "osm_id": 42602,
-        "class": "boundary",
-        "type": "administrative",
-        "place_rank": 16,
-        "importance": 0.710563302850239,
-        "addresstype": "city",
-        "name": "Firenze",
-        "display_name": "Firenze, Toscana, Italia",
-        "boundingbox": [
-          "43.7258716",
-          "43.8354631",
-          "11.1497598",
-          "11.3389044"
-        ]
-      }
+      "nom": "Centre historique",
+      "coordonnees": [
+        {"latitude": 43.769871, "longitude": 11.255575},
+        {"latitude": 43.768529, "longitude": 11.269674},
+        {"latitude": 43.765986, "longitude": 11.272984},
+        {"latitude": 43.767745, "longitude": 11.248457}
+        // Ajoutez d'autres points de coordonnées pour délimiter la zone
+      ]
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                10.7111211,
-                43.4515008
-              ],
-              [
-                11.7530586,
-                43.4515008
-              ],
-              [
-                11.7530586,
-                44.2398101
-              ],
-              [
-                10.7111211,
-                44.2398101
-              ],
-              [
-                10.7111211,
-                43.4515008
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "place_id": 101325002,
-        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-        "osm_type": "relation",
-        "osm_id": 42472,
-        "class": "boundary",
-        "type": "administrative",
-        "place_rank": 12,
-        "importance": 0.47143955510971,
-        "addresstype": "county",
-        "name": "Firenze",
-        "display_name": "Firenze, Toscana, Italia",
-        "boundingbox": [
-          "43.4515008",
-          "44.2398101",
-          "10.7111211",
-          "11.7530586"
-        ]
-      }
-    }
+      "nom": "Quartier résidentiel nord",
+      "coordonnees": [
+        {"latitude": 43.781415, "longitude": 11.255987},
+        {"latitude": 43.789238, "longitude": 11.254734},
+        {"latitude": 43.788620, "longitude": 11.272432},
+        {"latitude": 43.780795, "longitude": 11.270605}
+        // Ajoutez d'autres points de coordonnées pour délimiter la zone
+      ]
+    },
+    {
+      "nom": "Quartier sud",
+      "coordonnees": [
+        {"latitude": 43.761924, "longitude": 11.231795},
+        {"latitude": 43.760384, "longitude": 11.246666},
+        {"latitude": 43.755707, "longitude": 11.245307},
+        {"latitude": 43.757584, "longitude": 11.228763}
+        // Ajoutez d'autres points de coordonnées pour délimiter la zone
+      ]
+    },
+    // Ajoutez d'autres zones avec leurs coordonnées
   ]
 }
